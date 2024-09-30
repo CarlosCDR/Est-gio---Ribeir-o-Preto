@@ -1,0 +1,12 @@
+//Define as variaveis que serao utilizadas, inicialiazando cada uma com seu respectivo valor.
+int INDICE = 12, SOMA = 0, K = 1; 
+
+//Laço de repetição que atribui o valor a variavel K e SOMA, até que K seja igual a variavel INDICE.
+enquanto K < INDICE faça { 
+    K = K + 1; //atribui o valor a K de K mais 1.
+    SOMA = SOMA + K; //atribui o valor a SOMA de Soma mais K.
+    } 
+
+imprimir(SOMA);
+
+//Resposta: O valor da variavel soma e 77.
